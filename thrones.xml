@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<show>
+	<id>1000</id>
+	<name>Game Of Thrones</name>
+	<producers>
+		<producer>
+			<id>1000</id>
+			<name>David Benioff</name>
+			<email>benioff@thrones.com</email>
+			<phone>123-123-1233</phone>
+		</producer>
+		<producer>
+			<id>1001</id>
+			<name>D. B. Weiss</name>
+			<email>weiss@thrones.com</email>
+			<phone>123-123-4444</phone>
+		</producer>
+		<producer>
+			<id>1002</id>
+			<name>Frand Doelger</name>
+			<email>doelger@thrones.com</email>
+			<phone>123-123-5555</phone>
+		</producer>
+	</producers>
+	<clips>
+		<clip>
+			<id>1000</id>
+			<name>Thrones Scene 1</name>
+			<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</description>
+			<start>00:00:00</start>
+			<stop>00:30:00</stop>
+		</clip>
+		<clip>
+			<id>1001</id>
+			<name>Thrones Scene 2</name>
+			<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</description>
+			<start>00:30:00</start>
+			<stop>00:40:00</stop>
+		</clip>
+		<clip>
+			<id>1002</id>
+			<name>Thrones Scene 3</name>
+			<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</description>
+			<start>00:40:00</start>
+			<stop>01:00:00</stop>
+		</clip>
+	</clips>
+</show>

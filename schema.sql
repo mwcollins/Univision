@@ -1,3 +1,7 @@
+drop database if exists univision;
+create database univision;
+use univision;
+
 --
 -- Table structure for table `Shows`
 --
@@ -47,4 +51,6 @@ CREATE TABLE `ShowHasProducers` (
   `producerId` int(11) NOT NULL,
   PRIMARY KEY (`showId`,`producerId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+grant all on univision.* to 'univision'@'localhost' identified by 'univision';
 

@@ -23,8 +23,9 @@ pip install pyquery
 cd Univision
 ./setup.sh
 ```
+Note: This command will drop any database called 'univision'
 
-## Tests Api
+## Test Api
 
 Test parsing of thrones.xml file
 ```
